@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+        
+    <p><form onsubmit="checkAddress('email');">
+<b>Email:</b><br>
+<input type="text" id='email' onFocus="this.style.backgroundColor='green';" onblur="checkAddress('email');">
+<br>
+<b>zip:</b><br>
+<input type="text" id='zip' onFocus="this.style.backgroundColor='yellow';" onblur="zip1();">
+<br>
+<b>City:</b><br>
+<input type="text" id='city'>
+<br>
+<input type="submit" value="submit">
+</form>
+<p id='compressed'>
+    I am Muhammad Bilal and I am<a href="javaScipt:void(0)" onclick="expand();"><em>Click here to expand</em></a>
+</p>
+<div id="list">
+<a href="JavaScript:void(0);" onclick="listit();"><em>Click Here for list of Names</em></a>
+</div>    
+</p>
+</body>
+<script src='index.js'></script>
+</html>
